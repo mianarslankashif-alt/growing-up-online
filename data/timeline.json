@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "lifetimeStart": 2007,
+    "lifetimeEnd": 2026,
+    "note": "A quick-scan timeline of the biggest moments covered on this site. Click any era to read the full page."
+  },
+  "highlights": [
+    { "year": 2006, "headline": "Home broadband crosses 42% of US adults", "era": "Broadband & Web 2.0", "page": "broadband-era.html" },
+    { "year": 2007, "headline": "iPhone announced, then goes on sale", "era": "Smartphone Revolution", "page": "mobile-era.html" },
+    { "year": 2007, "headline": "Netflix launches 'Watch Now' streaming", "era": "Streaming & Cloud", "page": "streaming-cloud.html" },
+    { "year": 2008, "headline": "App Store opens; first Android phone ships", "era": "Smartphone Revolution", "page": "mobile-era.html" },
+    { "year": 2010, "headline": "68% of the US has home broadband", "era": "Broadband & Web 2.0", "page": "broadband-era.html" },
+    { "year": 2011, "headline": "Nationwide 4G LTE rollout begins", "era": "Smartphone Revolution", "page": "mobile-era.html" },
+    { "year": 2016, "headline": "Netflix completes its move to the cloud", "era": "Streaming & Cloud", "page": "streaming-cloud.html" },
+    { "year": 2020, "headline": "COVID-19 sends US internet traffic up 28%", "era": "Streaming & Cloud", "page": "streaming-cloud.html" },
+    { "year": 2022, "headline": "ChatGPT is released", "era": "Generative AI Era", "page": "ai-era.html" },
+    { "year": 2023, "headline": "US ChatGPT users grow 882% in a year", "era": "Generative AI Era", "page": "ai-era.html" }
+  ]
+}

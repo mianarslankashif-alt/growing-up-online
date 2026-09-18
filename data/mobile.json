@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "pageTitle": "The Smartphone Revolution",
+    "eraLabel": "2007 – 2013",
+    "heroImage": {
+      "src": "images/mobile-hero.svg",
+      "alt": "Illustration of an early touchscreen smartphone with signal bars",
+      "credit": "Original illustration created for this project"
+    },
+    "intro": [
+      "The single most important internet event of my birth year happened just eleven days before I was born (well before, if you count from January): on January 9, 2007, Steve Jobs stood on stage at Macworld and said 'we're going to reinvent the phone.' The device he unveiled that day — and the millions of imitators and competitors that followed it — is the reason most Americans, including me, have carried the internet in a pocket for essentially my entire life.",
+      "This page tracks how a single product launch turned into the mobile-first internet: from the original iPhone, through the app economy, to the 4G networks that finally made mobile browsing fast rather than just possible."
+    ]
+  },
+  "events": [
+    {
+      "year": 2007,
+      "headline": "The iPhone is announced",
+      "detail": "At Macworld on January 9, 2007, Apple announced the original iPhone, combining a widescreen iPod, a phone, and an 'internet communications device' with a 3.5-inch multi-touch display into a single product.",
+      "sourceName": "History Cooperative, \"iPhone History: Every Generation\"",
+      "sourceUrl": "https://historycooperative.org/the-history-of-the-iphone/"
+    },
+    {
+      "year": 2007,
+      "headline": "The iPhone goes on sale",
+      "detail": "The first iPhone went on sale in the United States on June 29, 2007. By September, Apple had already sold its millionth unit.",
+      "sourceName": "History Cooperative, \"iPhone History: Every Generation\"",
+      "sourceUrl": "https://historycooperative.org/the-history-of-the-iphone/"
+    },
+    {
+      "year": 2008,
+      "headline": "The App Store opens",
+      "detail": "Apple launched the App Store on July 10, 2008, with about 500 third-party apps available at launch. It created the modern 'app economy' and gave ordinary developers a direct channel to mobile internet users.",
+      "sourceName": "Cult of Mac, \"App Store launch transforms the iPhone\"",
+      "sourceUrl": "https://www.cultofmac.com/apple-history/apple-app-store-launch"
+    },
+    {
+      "year": 2008,
+      "headline": "The first Android phone ships",
+      "detail": "The T-Mobile G1 (HTC Dream), the first commercially available Android smartphone, was announced on September 23, 2008 and went on sale in the US on October 22, 2008, kicking off the iOS-versus-Android competition that still shapes the mobile internet today.",
+      "sourceName": "Android Authority, \"Remembering the first Android phone\"",
+      "sourceUrl": "https://www.androidauthority.com/first-android-phone-t-mobile-g1-htc-dream-906362/"
+    },
+    {
+      "year": 2011,
+      "headline": "4G LTE rollout begins nationally",
+      "detail": "Verizon began rolling out its 4G LTE network on December 5, 2011 in 38 US cities, promising it would cover the whole country by the end of 2013 — the network speed upgrade that made streaming video and full-quality web browsing practical on a phone.",
+      "sourceName": "NBC News, \"An unlikely Christmas tale: 4G iPhone on Verizon\"",
+      "sourceUrl": "https://www.nbcnews.com/tech/tech-news/unlikely-christmas-tale-4g-iphone-verizon-after-holiday-flna125994"
+    },
+    {
+      "year": 2012,
+      "headline": "The iPhone finally gets 4G",
+      "detail": "The iPhone 5, released in 2012, was the first iPhone with 4G LTE support and a larger 4-inch display, bringing Apple's flagship phone in line with the faster mobile networks that had launched the year before.",
+      "sourceName": "Seamgen, \"iPhone History: From the Original iPhone to Today\"",
+      "sourceUrl": "https://www.seamgen.com/blog/iphone-history-original-iphone-to-current-iphone"
+    }
+  ]
+}

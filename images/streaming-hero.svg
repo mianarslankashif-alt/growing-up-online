@@ -1,0 +1,17 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="strTitle">
+  <title id="strTitle">Illustration of a cloud server connected to a laptop playing a video</title>
+  <rect width="640" height="260" fill="#121c30"/>
+  <g fill="#eef2ff">
+    <ellipse cx="180" cy="90" rx="80" ry="42"/>
+    <ellipse cx="130" cy="105" rx="55" ry="34"/>
+    <ellipse cx="235" cy="105" rx="55" ry="34"/>
+  </g>
+  <g stroke="#0ea5a5" stroke-width="3" fill="none" stroke-dasharray="6 6">
+    <path d="M180 132 v40"/>
+    <path d="M180 172 h180"/>
+  </g>
+  <rect x="360" y="140" width="220" height="140" rx="8" fill="#1b2333" stroke="#0ea5a5" stroke-width="3"/>
+  <rect x="380" y="160" width="180" height="100" rx="4" fill="#1d4ed8"/>
+  <polygon points="450,185 450,235 505,210" fill="#eef2ff"/>
+  <rect x="440" y="280" width="60" height="0" fill="none"/>
+</svg>

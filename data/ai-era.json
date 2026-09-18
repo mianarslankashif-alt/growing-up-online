@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "pageTitle": "The Generative AI Era",
+    "eraLabel": "2022 – Present",
+    "heroImage": {
+      "src": "images/ai-hero.svg",
+      "alt": "Illustration of a chat window with a speech bubble made of binary code",
+      "credit": "Original illustration created for this project"
+    },
+    "intro": [
+      "The most recent chapter of the internet's history in my lifetime arrived when I was a teenager: a wave of generative AI chatbots that turned 'the internet' from something you searched into something you could hold a conversation with.",
+      "This shift happened faster than any previous technology adoption curve in this project — faster than broadband, faster than smartphones, faster than social media — and its long-term effects on how Americans use the internet are still unfolding."
+    ]
+  },
+  "events": [
+    {
+      "year": 2022,
+      "headline": "ChatGPT is released",
+      "detail": "OpenAI released ChatGPT on November 30, 2022. It attracted one million users within five days, a growth rate that investment bank UBS called the fastest of any consumer application in history.",
+      "sourceName": "History.com, \"ChatGPT, the generative AI chatbot, is released\"",
+      "sourceUrl": "https://www.history.com/this-day-in-history/november-30/chatgpt-released-openai"
+    },
+    {
+      "year": 2023,
+      "headline": "ChatGPT hits 100 million users in two months",
+      "detail": "ChatGPT reached 100 million monthly users in January 2023 — a milestone that took TikTok nine months and Instagram roughly two and a half years to reach.",
+      "sourceName": "The Neuron, \"Three Years of ChatGPT: A Retrospective (2022–2025)\"",
+      "sourceUrl": "https://www.theneuron.ai/explainer-articles/three-years-of-chatgpt-a-retrospective-2022-2025/"
+    },
+    {
+      "year": 2023,
+      "headline": "US adoption jumps nearly 900% in a year",
+      "detail": "By March 2023, 14% of US adults had tried ChatGPT according to a Pew Research Center poll, and US usage grew from about 6.3 million users to 61.5 million over the course of 2023 — an increase of roughly 882%.",
+      "sourceName": "Originality.AI, \"ChatGPT Statistics\"",
+      "sourceUrl": "https://originality.ai/blog/chatgpt-statistics"
+    },
+    {
+      "year": 2023,
+      "headline": "Generative AI reaches classrooms and pop culture",
+      "detail": "Early-2023 surveys found around 30% of US college students had already used ChatGPT on an assignment, sparking a debate over academic integrity that reached mainstream television when South Park devoted an entire episode ('Deep Learning', March 2023) to the trend.",
+      "sourceName": "CTO Magazine, \"What ChatGPT Statistics Tell Us About the Future of AI Communication\"",
+      "sourceUrl": "https://ctomagazine.com/what-chatgpt-statistics-tell-us-about-the-future-of-ai-communication/"
+    },
+    {
+      "year": 2024,
+      "headline": "Generative AI outpaces every earlier technology wave",
+      "detail": "Research published via the St. Louis Federal Reserve and Harvard found that generative AI was being adopted by American workers and households faster than the internet or personal computers were in their own early years — the fastest technology adoption curve on record at the time.",
+      "sourceName": "Harvard Gazette, \"Generative AI embraced faster than internet, PCs\"",
+      "sourceUrl": "https://news.harvard.edu/gazette/story/2024/10/generative-ai-embraced-faster-than-internet-pcs/"
+    }
+  ]
+}

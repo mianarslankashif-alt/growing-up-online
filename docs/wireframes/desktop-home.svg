@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <title>Wireframe — Home page, desktop</title>
+  <rect width="1200" height="760" fill="#ffffff" stroke="#ccc"/>
+  <!-- header -->
+  <rect x="0" y="0" width="1200" height="60" fill="#e8e8e8" stroke="#999"/>
+  <rect x="24" y="18" width="140" height="24" fill="#bbb"/>
+  <g fill="#ccc" stroke="#999">
+    <rect x="700" y="18" width="70" height="24"/>
+    <rect x="780" y="18" width="90" height="24"/>
+    <rect x="880" y="18" width="80" height="24"/>
+    <rect x="970" y="18" width="90" height="24"/>
+    <rect x="1070" y="18" width="60" height="24"/>
+    <rect x="1140" y="18" width="70" height="24"/>
+  </g>
+  <!-- hero -->
+  <rect x="0" y="60" width="1200" height="240" fill="#f2f2f2" stroke="#999"/>
+  <rect x="60" y="90" width="100" height="24" fill="#ddd"/>
+  <rect x="60" y="130" width="620" height="34" fill="#ccc"/>
+  <rect x="60" y="172" width="560" height="34" fill="#ccc"/>
+  <rect x="60" y="222" width="700" height="14" fill="#e2e2e2"/>
+  <rect x="60" y="242" width="640" height="14" fill="#e2e2e2"/>
+  <rect x="60" y="262" width="500" height="14" fill="#e2e2e2"/>
+  <!-- nav cards -->
+  <text x="60" y="340" font-size="18" fill="#666">Explore the eras (section heading)</text>
+  <g fill="#f6f6f6" stroke="#999">
+    <rect x="60" y="360" width="255" height="140"/>
+    <rect x="335" y="360" width="255" height="140"/>
+    <rect x="610" y="360" width="255" height="140"/>
+    <rect x="885" y="360" width="255" height="140"/>
+  </g>
+  <g fill="#ccc">
+    <rect x="80" y="380" width="80" height="14"/>
+    <rect x="80" y="404" width="180" height="18"/>
+    <rect x="80" y="430" width="200" height="12"/>
+    <rect x="80" y="450" width="150" height="12"/>
+    <rect x="355" y="380" width="80" height="14"/>
+    <rect x="355" y="404" width="180" height="18"/>
+    <rect x="355" y="430" width="200" height="12"/>
+    <rect x="355" y="450" width="150" height="12"/>
+    <rect x="630" y="380" width="80" height="14"/>
+    <rect x="630" y="404" width="180" height="18"/>
+    <rect x="630" y="430" width="200" height="12"/>
+    <rect x="630" y="450" width="150" height="12"/>
+    <rect x="905" y="380" width="80" height="14"/>
+    <rect x="905" y="404" width="180" height="18"/>
+    <rect x="905" y="430" width="200" height="12"/>
+    <rect x="905" y="450" width="150" height="12"/>
+  </g>
+  <!-- timeline -->
+  <text x="60" y="545" font-size="18" fill="#666">Quick-scan timeline (section heading)</text>
+  <line x1="80" y1="565" x2="80" y2="700" stroke="#999" stroke-width="3"/>
+  <g fill="#ccc">
+    <circle cx="80" cy="580" r="6"/>
+    <rect x="100" y="572" width="60" height="12"/>
+    <rect x="100" y="590" width="400" height="14"/>
+    <circle cx="80" cy="630" r="6"/>
+    <rect x="100" y="622" width="60" height="12"/>
+    <rect x="100" y="640" width="400" height="14"/>
+    <circle cx="80" cy="680" r="6"/>
+    <rect x="100" y="672" width="60" height="12"/>
+    <rect x="100" y="690" width="400" height="14"/>
+  </g>
+  <!-- footer -->
+  <rect x="0" y="720" width="1200" height="40" fill="#e8e8e8" stroke="#999"/>
+  <rect x="24" y="730" width="500" height="14" fill="#ccc"/>
+  <text x="600" y="20" font-size="12" fill="#999">LOW-FIDELITY WIREFRAME — HOME PAGE — DESKTOP (&gt;=900px)</text>
+</svg>

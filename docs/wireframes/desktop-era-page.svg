@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <title>Wireframe — Era page template, desktop (used by broadband/mobile/streaming/ai pages)</title>
+  <rect width="1200" height="800" fill="#ffffff" stroke="#ccc"/>
+  <text x="600" y="20" font-size="12" fill="#999">LOW-FI WIREFRAME — ERA PAGE TEMPLATE (used by all 4 era pages) — DESKTOP</text>
+  <rect x="0" y="30" width="1200" height="60" fill="#e8e8e8" stroke="#999"/>
+  <rect x="24" y="48" width="140" height="24" fill="#bbb"/>
+  <g fill="#ccc" stroke="#999">
+    <rect x="700" y="48" width="70" height="24"/>
+    <rect x="780" y="48" width="90" height="24"/>
+    <rect x="880" y="48" width="80" height="24"/>
+    <rect x="970" y="48" width="90" height="24"/>
+    <rect x="1070" y="48" width="60" height="24"/>
+    <rect x="1140" y="48" width="70" height="24"/>
+  </g>
+  <!-- hero: era label, h1, 2 intro paras, image -->
+  <rect x="0" y="90" width="1200" height="280" fill="#f2f2f2" stroke="#999"/>
+  <rect x="60" y="115" width="90" height="22" fill="#ddd"/>
+  <rect x="60" y="150" width="600" height="30" fill="#ccc"/>
+  <rect x="60" y="195" width="700" height="12" fill="#e2e2e2"/>
+  <rect x="60" y="212" width="650" height="12" fill="#e2e2e2"/>
+  <rect x="60" y="229" width="500" height="12" fill="#e2e2e2"/>
+  <rect x="60" y="255" width="700" height="12" fill="#e2e2e2"/>
+  <rect x="60" y="272" width="600" height="12" fill="#e2e2e2"/>
+  <rect x="60" y="300" width="1080" height="60" fill="#ddd" stroke="#999"/>
+  <text x="600" y="335" font-size="12" fill="#999" text-anchor="middle">[ hero illustration + caption ]</text>
+  <!-- events list, single column cards with left accent bar -->
+  <text x="60" y="410" font-size="18" fill="#666">Timeline of events (section heading)</text>
+  <g>
+    <rect x="60" y="425" width="1080" height="90" fill="#f8f8f8" stroke="#999"/>
+    <rect x="60" y="425" width="6" height="90" fill="#bbb"/>
+    <rect x="90" y="440" width="60" height="16" fill="#ccc"/>
+    <rect x="90" y="462" width="300" height="16" fill="#ccc"/>
+    <rect x="90" y="486" width="900" height="10" fill="#e2e2e2"/>
+    <rect x="90" y="500" width="300" height="10" fill="#e2e2e2"/>
+  </g>
+  <g>
+    <rect x="60" y="525" width="1080" height="90" fill="#f8f8f8" stroke="#999"/>
+    <rect x="60" y="525" width="6" height="90" fill="#bbb"/>
+    <rect x="90" y="540" width="60" height="16" fill="#ccc"/>
+    <rect x="90" y="562" width="300" height="16" fill="#ccc"/>
+    <rect x="90" y="586" width="900" height="10" fill="#e2e2e2"/>
+    <rect x="90" y="600" width="300" height="10" fill="#e2e2e2"/>
+  </g>
+  <text x="60" y="650" font-size="12" fill="#999">(repeats: one card per JSON event, rendered via Handlebars)</text>
+  <rect x="0" y="700" width="1200" height="40" fill="#e8e8e8" stroke="#999"/>
+  <rect x="24" y="710" width="500" height="14" fill="#ccc"/>
+</svg>

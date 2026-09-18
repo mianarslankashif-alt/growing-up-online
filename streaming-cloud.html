@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streaming, Cloud &amp; the Pandemic Surge — Growing Up Online</title>
+  <meta name="description" content="How Netflix streaming, cloud computing and the COVID-19 pandemic reshaped US internet use between 2006 and 2021.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">Growing Up <span>Online</span></a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="broadband-era.html">Broadband Era</a></li>
+          <li><a href="mobile-era.html">Mobile Era</a></li>
+          <li><a href="streaming-cloud.html" aria-current="page">Streaming &amp; Cloud</a></li>
+          <li><a href="ai-era.html">AI Era</a></li>
+          <li><a href="sources.html">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="page-heading">
+    <div class="hero-inner">
+      <span class="era-label" id="era-label">&nbsp;</span>
+      <h1 id="page-heading">Loading page&hellip;</h1>
+      <div id="hero-container" class="data-status is-loading">Loading page content&hellip;</div>
+    </div>
+  </section>
+
+  <main id="main-content">
+    <h2 class="section-heading">Timeline of events</h2>
+    <ul class="event-list" id="events-list"></ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>Coursework project &mdash; History of the Internet in the United States. See the <a href="sources.html">Sources</a> page for full citations.</p>
+      <p><a href="index.html">&larr; Back to home</a></p>
+    </div>
+  </footer>
+
+  <script id="hero-template" type="text/x-handlebars-template">
+    {{#each intro}}<p>{{this}}</p>{{/each}}
+    <figure class="hero-image">
+      <img src="{{heroImage.src}}" alt="{{heroImage.alt}}">
+      <figcaption>{{heroImage.credit}}</figcaption>
+    </figure>
+  </script>
+
+  <script id="event-card-template" type="text/x-handlebars-template">
+    <li class="event-card">
+      <span class="event-year">{{year}}</span>
+      <h3>{{headline}}</h3>
+      <p>{{detail}}</p>
+      <p class="event-source">Source: <a href="{{sourceUrl}}" target="_blank" rel="noopener noreferrer">{{sourceName}}</a></p>
+    </li>
+  </script>
+
+  <script src="lib/handlebars.min.js"></script>
+  <script src="js/render.js"></script>
+  <script>
+    renderEraPage({
+      jsonPath: "data/streaming.json",
+      heroContainerId: "hero-container",
+      eventsContainerId: "events-list",
+      pageTitleElId: "page-heading",
+      eraLabelElId: "era-label"
+    });
+  </script>
+</body>
+</html>

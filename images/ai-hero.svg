@@ -1,0 +1,12 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="aiTitle">
+  <title id="aiTitle">Illustration of a chat window with a speech bubble made of binary code</title>
+  <rect width="640" height="260" fill="#121c30"/>
+  <rect x="150" y="60" width="340" height="150" rx="14" fill="#1b2333" stroke="#0ea5a5" stroke-width="3"/>
+  <circle cx="180" cy="85" r="5" fill="#f7b500"/>
+  <circle cx="200" cy="85" r="5" fill="#0ea5a5"/>
+  <circle cx="220" cy="85" r="5" fill="#1d4ed8"/>
+  <rect x="175" y="110" width="180" height="26" rx="13" fill="#1d4ed8"/>
+  <rect x="205" y="150" width="220" height="26" rx="13" fill="#0ea5a5"/>
+  <text x="185" y="128" font-family="monospace" font-size="14" fill="#eef2ff">01001 hi</text>
+  <text x="215" y="168" font-family="monospace" font-size="14" fill="#06282a">hello, human 010</text>
+</svg>

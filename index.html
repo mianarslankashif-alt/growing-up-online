@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growing Up Online — A History of the Internet in America</title>
+  <meta name="description" content="A history of the internet in the United States from 2007 to today, told across broadband, mobile, streaming/cloud and generative AI.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">Growing Up <span>Online</span></a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="broadband-era.html">Broadband Era</a></li>
+          <li><a href="mobile-era.html">Mobile Era</a></li>
+          <li><a href="streaming-cloud.html">Streaming &amp; Cloud</a></li>
+          <li><a href="ai-era.html">AI Era</a></li>
+          <li><a href="sources.html">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-inner">
+      <span class="era-label">2007 &ndash; 2026</span>
+      <h1 id="hero-heading">A history of the internet in America, during my own lifetime</h1>
+      <p>
+        I was born in the United States in 2007 &mdash; the same year the iPhone went on sale.
+        This site tracks how the internet changed around me over the two decades since: from
+        the last mile of home broadband, through the smartphone takeover, to streaming, the
+        cloud, the pandemic, and the sudden arrival of generative AI.
+      </p>
+      <figure class="hero-image">
+        <img src="images/home-hero.svg" alt="A winding timeline connecting a router, a phone, a cloud and a chat bubble, labelled 2007, 2011, 2020 and 2023">
+        <figcaption>Original illustration created for this project.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <main id="main-content">
+    <h2 class="section-heading">Explore the eras</h2>
+    <div class="era-grid">
+      <a class="era-card" href="broadband-era.html">
+        <span class="era-years">2007&ndash;2011</span>
+        <h3>Broadband &amp; Web 2.0</h3>
+        <p>Cable and DSL go mainstream, and Facebook, YouTube and Twitter open to everyone.</p>
+      </a>
+      <a class="era-card" href="mobile-era.html">
+        <span class="era-years">2007&ndash;2013</span>
+        <h3>Smartphone Revolution</h3>
+        <p>The iPhone, the App Store, Android, and the 4G networks that made mobile internet fast.</p>
+      </a>
+      <a class="era-card" href="streaming-cloud.html">
+        <span class="era-years">2006&ndash;2021</span>
+        <h3>Streaming &amp; Cloud</h3>
+        <p>Netflix goes streaming, the cloud takes over, and COVID-19 tests the whole network.</p>
+      </a>
+      <a class="era-card" href="ai-era.html">
+        <span class="era-years">2022&ndash;present</span>
+        <h3>Generative AI Era</h3>
+        <p>ChatGPT arrives and the internet becomes something you talk to, not just search.</p>
+      </a>
+    </div>
+
+    <h2 class="section-heading" id="timeline-heading">Quick-scan timeline</h2>
+    <p id="timeline-status" class="data-status is-loading">Loading timeline data&hellip;</p>
+    <ol class="timeline" id="timeline-list" aria-labelledby="timeline-heading"></ol>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>Coursework project &mdash; History of the Internet in the United States. See the <a href="sources.html">Sources</a> page for full citations.</p>
+      <p>Content and illustrations authored for this project unless a source is credited.</p>
+    </div>
+  </footer>
+
+  <!-- Handlebars templates for the JSON-driven timeline strip -->
+  <script id="timeline-item-template" type="text/x-handlebars-template">
+    <li>
+      <span class="tl-year">{{year}}</span>
+      <p class="tl-headline">{{headline}}</p>
+      <span class="tl-era"><a href="{{page}}">{{era}}</a></span>
+    </li>
+  </script>
+
+  <script src="lib/handlebars.min.js"></script>
+  <script src="js/render.js"></script>
+  <script>
+    document.getElementById("timeline-status").remove();
+    renderTimeline({ jsonPath: "data/timeline.json", containerId: "timeline-list" });
+  </script>
+</body>
+</html>

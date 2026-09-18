@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <title>Wireframe — Sources page, desktop</title>
+  <rect width="1200" height="700" fill="#ffffff" stroke="#ccc"/>
+  <text x="600" y="20" font-size="12" fill="#999">LOW-FI WIREFRAME — SOURCES PAGE — DESKTOP</text>
+  <rect x="0" y="30" width="1200" height="60" fill="#e8e8e8" stroke="#999"/>
+  <rect x="24" y="48" width="140" height="24" fill="#bbb"/>
+  <rect x="60" y="120" width="90" height="22" fill="#ddd"/>
+  <rect x="60" y="150" width="400" height="30" fill="#ccc"/>
+  <rect x="60" y="195" width="700" height="12" fill="#e2e2e2"/>
+  <rect x="60" y="212" width="650" height="12" fill="#e2e2e2"/>
+  <g fill="#ccc">
+    <rect x="60" y="270" width="260" height="16"/>
+    <rect x="70" y="296" width="500" height="10"/>
+    <rect x="70" y="312" width="480" height="10"/>
+    <rect x="70" y="328" width="500" height="10"/>
+    <rect x="640" y="270" width="260" height="16"/>
+    <rect x="650" y="296" width="500" height="10"/>
+    <rect x="650" y="312" width="480" height="10"/>
+  </g>
+  <g fill="#ccc">
+    <rect x="60" y="380" width="260" height="16"/>
+    <rect x="70" y="406" width="500" height="10"/>
+    <rect x="70" y="422" width="480" height="10"/>
+    <rect x="640" y="380" width="260" height="16"/>
+    <rect x="650" y="406" width="500" height="10"/>
+  </g>
+  <text x="60" y="480" font-size="12" fill="#999">(one block per era, each a heading + bulleted source list, two-column on wide screens)</text>
+  <rect x="0" y="630" width="1200" height="40" fill="#e8e8e8" stroke="#999"/>
+</svg>

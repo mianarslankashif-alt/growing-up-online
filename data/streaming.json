@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "pageTitle": "Streaming, Cloud & the Pandemic Surge",
+    "eraLabel": "2006 – 2021",
+    "heroImage": {
+      "src": "images/streaming-hero.svg",
+      "alt": "Illustration of a cloud server connected to a laptop playing video",
+      "credit": "Original illustration created for this project"
+    },
+    "intro": [
+      "While I was a toddler, two quiet infrastructure shifts were happening in the background that would define how I'd spend most of my teenage years online: video moved from something you downloaded or rented on disc to something that simply streamed, and the computing that powered the internet's biggest websites moved out of company-owned data centers and into 'the cloud.'",
+      "Fourteen years later, in 2020, those same two trends collided with a global pandemic, and the American home internet connection — built up gradually since the mid-2000s — was suddenly asked to carry an entire country's work, school, and social life at once."
+    ]
+  },
+  "events": [
+    {
+      "year": 2006,
+      "headline": "Amazon Web Services begins, and Netflix signs up",
+      "detail": "Amazon Web Services (AWS) launched its cloud infrastructure business in 2006, and Netflix became an AWS customer that same year — years before Netflix's own streaming service, or AWS's most famous compute product (EC2), had matured.",
+      "sourceName": "Medium (Sachin Singh), \"Case Study of How Netflix got benefits from AWS\"",
+      "sourceUrl": "https://medium.com/@sachin28/case-study-of-how-netflix-got-benefits-from-amazon-web-services-53d3ad0256bd"
+    },
+    {
+      "year": 2007,
+      "headline": "Netflix launches 'Watch Now' streaming",
+      "detail": "On January 16, 2007, Netflix launched its 'Watch Now' feature, letting subscribers instantly stream movies and TV shows on a computer for the first time, rather than waiting for a DVD in the mail. The rollout completed for all subscribers by June 2007, and Netflix passed $1 billion in annual revenue that same year.",
+      "sourceName": "VdoCipher, \"History of Netflix: When It Started, Founders & Key Milestones\"",
+      "sourceUrl": "https://www.vdocipher.com/blog/history-of-neflix/"
+    },
+    {
+      "year": 2008,
+      "headline": "A data center failure pushes Netflix toward the cloud",
+      "detail": "In August 2008, a major database corruption at Netflix's own data centers left the company unable to ship DVDs to customers for three days. The outage was the direct trigger for Netflix's decision to move its infrastructure to AWS.",
+      "sourceName": "High Scalability, \"Netflix: What Happens When You Press Play?\"",
+      "sourceUrl": "https://highscalability.com/netflix-what-happens-when-you-press-play/"
+    },
+    {
+      "year": 2016,
+      "headline": "Netflix completes its seven-year move to the cloud",
+      "detail": "In early January 2016, after seven years of effort, Netflix shut down the last of its own data center infrastructure and became fully cloud-native on AWS — rebuilding almost all of its systems along the way rather than simply relocating them.",
+      "sourceName": "Silicon UK, \"Netflix Completes Eight Year Cloud Migration and Shuts Last Data Centre\"",
+      "sourceUrl": "https://www.silicon.co.uk/cloud/cloud-management/netflix-completes-cloud-migration-data-centre-185843"
+    },
+    {
+      "year": 2020,
+      "headline": "COVID-19 sends internet traffic soaring",
+      "detail": "When the WHO declared COVID-19 a pandemic in March 2020, US internet traffic jumped roughly 28% year-on-year almost overnight; some ISPs saw peak traffic rise 30–60% as nearly two-thirds of employees shifted to remote work and 97% of college students moved to online learning.",
+      "sourceName": "Visual Capitalist, \"One Year In: Data Usage Surged During COVID-19 Pandemic\"",
+      "sourceUrl": "https://www.visualcapitalist.com/data-usage-surged-during-pandemic/"
+    },
+    {
+      "year": 2020,
+      "headline": "US networks hold up — and even speed up",
+      "detail": "Despite the sudden surge in Zoom calls, streaming and remote learning, average US internet speeds actually rose across 2020, from 84.9 Mbps to 94.6 Mbps, showing how much capacity the broadband build-out of the previous 15 years had created.",
+      "sourceName": "WhistleOut, \"How (and Why) Internet Speeds Have Changed During COVID-19\"",
+      "sourceUrl": "https://www.whistleout.com/Internet/Guides/pandemic-internet-speed-changes"
+    }
+  ]
+}

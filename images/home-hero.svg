@@ -1,0 +1,13 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="homeTitle">
+  <title id="homeTitle">Illustration of a winding timeline path connecting a router, a phone, a cloud and a chat bubble</title>
+  <rect width="640" height="260" fill="#121c30"/>
+  <path d="M40 210 C 160 210, 160 120, 260 120 S 360 210, 460 210 S 560 120, 600 120" fill="none" stroke="#0ea5a5" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="40" cy="210" r="9" fill="#f7b500"/>
+  <circle cx="260" cy="120" r="9" fill="#f7b500"/>
+  <circle cx="460" cy="210" r="9" fill="#f7b500"/>
+  <circle cx="600" cy="120" r="9" fill="#f7b500"/>
+  <text x="20" y="235" fill="#aab4d4" font-family="Segoe UI, sans-serif" font-size="13">2007</text>
+  <text x="235" y="105" fill="#aab4d4" font-family="Segoe UI, sans-serif" font-size="13">2011</text>
+  <text x="430" y="235" fill="#aab4d4" font-family="Segoe UI, sans-serif" font-size="13">2020</text>
+  <text x="575" y="105" fill="#aab4d4" font-family="Segoe UI, sans-serif" font-size="13">2023</text>
+</svg>

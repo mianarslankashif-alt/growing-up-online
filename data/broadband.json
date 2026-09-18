@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "pageTitle": "The Broadband & Web 2.0 Awakening",
+    "eraLabel": "2007 – 2011",
+    "heroImage": {
+      "src": "images/broadband-hero.svg",
+      "alt": "Illustration of a modem and router connecting a home to the internet",
+      "credit": "Original illustration created for this project"
+    },
+    "intro": [
+      "By the time I was born in 2007, the internet in the United States was already shifting from a dial-up curiosity into something households were beginning to treat as a utility. Home broadband had only crossed the 50% mark of American adults in early 2006, and cable and DSL companies were racing each other for the newly broadband-curious.",
+      "This page covers the years right around my birth, when 'getting online' stopped meaning a screeching modem handshake and started meaning an always-on cable or DSL line, and when the first wave of social platforms (Facebook, YouTube, Twitter) were opening their doors to the public."
+    ]
+  },
+  "events": [
+    {
+      "year": 2006,
+      "headline": "Broadband crosses the tipping point",
+      "detail": "By March 2006, 42% of American adults (about 84 million people) had broadband at home, up from 30% a year earlier — a 40% jump in twelve months. Price cuts by cable and DSL providers were the main driver.",
+      "sourceName": "Pew Research Center, \"Broadband Adoption in the United States\" (2006)",
+      "sourceUrl": "https://www.pewresearch.org/internet/2006/05/28/part-1-broadband-adoption-in-the-united-states/"
+    },
+    {
+      "year": 2006,
+      "headline": "Facebook opens to everyone",
+      "detail": "Facebook, founded in 2004 for university students, removed its membership restrictions in September 2006 and let anyone with an email address sign up, turning a campus network into a mass platform.",
+      "sourceName": "HubSpot, \"The History of Social Media Since 2003\"",
+      "sourceUrl": "https://blog.hubspot.com/marketing/social-media-history"
+    },
+    {
+      "year": 2006,
+      "headline": "Twitter launches",
+      "detail": "Jack Dorsey, Evan Williams and Biz Stone launched Twitter on March 21, 2006, introducing short-form 'microblogging' as a new way to follow real-time events and conversations.",
+      "sourceName": "Timetoast / Hootsuite social media timelines",
+      "sourceUrl": "https://blog.hootsuite.com/history-social-media/"
+    },
+    {
+      "year": 2007,
+      "headline": "The rural-urban broadband gap becomes visible",
+      "detail": "Around this time, only about 31% of rural Americans had broadband at home compared with 47% of the population overall — an early sign of the 'digital divide' that would shape US broadband policy for the next two decades.",
+      "sourceName": "Pew Research Center, \"Findings\" (2005 broadband survey)",
+      "sourceUrl": "https://www.pewresearch.org/internet/2005/09/21/findings/"
+    },
+    {
+      "year": 2008,
+      "headline": "The 2007–2009 housing crisis slows (but doesn't stop) broadband growth",
+      "detail": "The US housing bust cut broadband 'net adds' roughly in half compared with the 10-million-plus added annually in 2005–2006, as new home construction and house moves (a common trigger for signing up to a provider) collapsed. Growth continued, just more slowly.",
+      "sourceName": "S&P Global Market Intelligence, \"The History of US Broadband\"",
+      "sourceUrl": "https://www.spglobal.com/market-intelligence/en/news-insights/research/the-history-of-us-broadband"
+    },
+    {
+      "year": 2010,
+      "headline": "68% of the US has home broadband",
+      "detail": "By the end of the decade, 68% of the US population had some form of broadband internet service at home — DSL, cable, or increasingly, fibre services like Verizon FiOS — up from well under half just five years earlier.",
+      "sourceName": "National Telecommunications and Information Administration (NTIA), \"Exploring the Digital Nation\" (2010)",
+      "sourceUrl": "https://www.ntia.gov/report/2010/exploring-digital-nation-home-broadband-internet-adoption-united-states"
+    }
+  ]
+}
